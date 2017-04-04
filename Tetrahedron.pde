@@ -16,6 +16,7 @@ class Tetrahedron {
         vertices[2] = v3;
         vertices[3] = v4;
         getCenterCircumcircle();
+        fill(255);
     }
 
     public boolean equals(Tetrahedron t) {
