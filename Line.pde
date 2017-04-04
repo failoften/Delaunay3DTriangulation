@@ -8,6 +8,7 @@ class Line {
     // 始点と終点をひっくり返す
     public void reverse() {
         PVector tmp = this.start;
+        println("hi");
         this.start = this.end;
         this.end = tmp;
     }
